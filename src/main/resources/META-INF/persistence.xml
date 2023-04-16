@@ -3,6 +3,16 @@
     <persistence-unit name="hello">
 
         <class>com.example.hello_jpa.Member</class>
+        <class>com.example.hello_jpa.Team</class>
+        <class>com.example.hello_jpa.Locker</class>
+        <class>com.example.hello_jpa.Product</class>
+        <class>com.example.hello_jpa.MemberProduct</class>
+        <class>com.example.hello_jpa.Item</class>
+        <class>com.example.hello_jpa.Book</class>
+        <class>com.example.hello_jpa.Album</class>
+        <class>com.example.hello_jpa.Movie</class>
+        <class>com.example.hello_jpa.Parent</class>
+        <class>com.example.hello_jpa.Child</class>
 
         <properties>
             <!-- 필수 속성 -->
